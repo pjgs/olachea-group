@@ -6,8 +6,8 @@ function loadHeader() {
     // Create the header HTML structure
     const headerHTML = `
         <div class="header-container">
-            <a href="/" class="logo-link">
-                <img src="/images/logo_horizontal.png" alt="Olachea Group Logo" class="logo">
+            <a href="../" class="logo-link">
+                <img src="../images/logo_horizontal.png" alt="Olachea Group Logo" class="logo">
             </a>
             
             <!-- Mobile Menu Button -->
@@ -22,10 +22,10 @@ function loadHeader() {
             <div class="mobile-menu-overlay">
                 <div class="mobile-menu-container">
                     <nav class="mobile-menu-nav">
-                            <li><a href="/" class="mobile-nav-link ${currentPath === '/' ? 'active' : ''}" data-i18n="nav_home">Home</a></li>
-                            <li><a href="/about_us/" class="mobile-nav-link ${currentPath.includes('about') ? 'active' : ''}" data-i18n="nav_about">About Us</a></li>
-                            <li><a href="/contact/" class="mobile-nav-link ${currentPath.includes('contact') ? 'active' : ''}" data-i18n="nav_contact">Contact</a></li>
-                            <li><a href="/foods/blog/" class="mobile-nav-link ${currentPath.includes('blog') ? 'active' : ''}" data-i18n="nav_blog"><img src="/images/blog.png" alt="Blog" style="display: inline-block; vertical-align: middle; margin-right: 5px; width: 16px; height: 16px;">Blog</a></li>
+                            <li><a href="../" class="mobile-nav-link ${currentPath === '/' ? 'active' : ''}" data-i18n="nav_home">Home</a></li>
+                            <li><a href="../about_us/" class="mobile-nav-link ${currentPath.includes('about') ? 'active' : ''}" data-i18n="nav_about">About Us</a></li>
+                            <li><a href="../contact/" class="mobile-nav-link ${currentPath.includes('contact') ? 'active' : ''}" data-i18n="nav_contact">Contact</a></li>
+                            <li><a href="../foods/blog/" class="mobile-nav-link ${currentPath.includes('blog') ? 'active' : ''}" data-i18n="nav_blog"><img src="/images/blog.png" alt="Blog" style="display: inline-block; vertical-align: middle; margin-right: 5px; width: 16px; height: 16px;">Blog</a></li>
                         </nav>
                 </div>
             </div>
@@ -33,10 +33,10 @@ function loadHeader() {
             <!-- Navigation Menu -->
             <nav class="main-nav">
                 <ul class="nav-links">
-                    <li><a href="/" class="nav-link ${currentPath === '/' ? 'active' : ''}" id="homeLink" data-i18n="nav_home">Home</a></li>
-                    <li><a href="/about_us/" class="nav-link ${currentPath.includes('about') ? 'active' : ''}" id="aboutLink" data-i18n="nav_about">About Us</a></li>
-                    <li><a href="/contact/" class="nav-link ${currentPath.includes('contact') ? 'active' : ''}" id="contactLink" data-i18n="nav_contact">Contact</a></li>
-                    <li><a href="/foods/blog/" class="nav-link ${currentPath.includes('blog') ? 'active' : ''}" id="blogLink" data-i18n="nav_blog"><img src="/images/blog.png" alt="Blog" style="display: inline-block; vertical-align: middle; margin-right: 5px; width: 16px; height: 16px;">Blog</a></li>
+                    <li><a href="../" class="nav-link ${currentPath === '/' ? 'active' : ''}" id="homeLink" data-i18n="nav_home">Home</a></li>
+                    <li><a href="../about_us/" class="nav-link ${currentPath.includes('about') ? 'active' : ''}" id="aboutLink" data-i18n="nav_about">About Us</a></li>
+                    <li><a href="../contact/" class="nav-link ${currentPath.includes('contact') ? 'active' : ''}" id="contactLink" data-i18n="nav_contact">Contact</a></li>
+                    <li><a href="../foods/blog/" class="nav-link ${currentPath.includes('blog') ? 'active' : ''}" id="blogLink" data-i18n="nav_blog"><img src="/images/blog.png" alt="Blog" style="display: inline-block; vertical-align: middle; margin-right: 5px; width: 16px; height: 16px;">Blog</a></li>
                 </ul>
             </nav>
         </div>
